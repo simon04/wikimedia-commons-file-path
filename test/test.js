@@ -20,4 +20,16 @@ describe('wikimedia-commons-file-path', function() {
       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Innsbruck.jpg/360px-Innsbruck.jpg'
     );
   });
+  it('should compute a PNG thumbnail file path for SVG file', function() {
+    assert.equal(
+      commons('File:Commons-logo.svg', 360),
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/360px-Commons-logo.svg.png'
+    );
+  });
+  it('should compute a JPG thumbnail file path for TIF file', function() {
+    assert.equal(
+      commons('File:BassersdorffSwissair-19780725i.tif', 800),
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/BassersdorffSwissair-19780725i.tif/800px-BassersdorffSwissair-19780725i.tif.jpg'
+    );
+  });
 });

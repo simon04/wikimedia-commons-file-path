@@ -9,7 +9,12 @@ export default function getFilePath(file, width) {
   const ns = `${hash[0]}/${hash[0]}${hash[1]}`;
   if (width) {
     // thumbnail
-    return `${base}/thumb/${ns}/${encoded}/${width}px-${encoded}`;
+    const suffix = file.match(/tiff?$/i)
+      ? '.jpg'
+      : file.match(/svg$/i)
+        ? '.png'
+        : '';
+    return `${base}/thumb/${ns}/${encoded}/${width}px-${encoded}${suffix}`;
   } else {
     // original
     return `${base}/${ns}/${encoded}`;
