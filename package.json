@@ -1,0 +1,38 @@
+{
+  "name": "wikimedia-commons-file-path",
+  "version": "1.0.0",
+  "description": "Returns the image/thumbnail file path for Wikimedia Commons",
+  "main": "build/wikimedia-commons-file-path.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "npm run build && npm run test:mocha && npm run test:style",
+    "test:mocha": "mocha",
+    "test:style": "prettier --single-quote --list-different $(git ls-files '*.js' '*.json')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon04/wikimedia-commons-file-path.git"
+  },
+  "keywords": [
+    "wikimedia",
+    "commons",
+    "filepath"
+  ],
+  "author": "Simon Legner <Simon.Legner@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simon04/wikimedia-commons-file-path/issues"
+  },
+  "homepage": "https://github.com/simon04/wikimedia-commons-file-path#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "prettier": "^1.14.2",
+    "rollup": "^0.65.0",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "dependencies": {
+    "js-md5": "^0.7.3"
+  }
+}
