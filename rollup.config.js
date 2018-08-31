@@ -2,6 +2,7 @@ import buble from 'rollup-plugin-buble';
 import common from 'rollup-plugin-commonjs';
 import nodeResolve from 'rollup-plugin-node-resolve';
 import {uglify} from 'rollup-plugin-uglify';
+import pkg from './package.json';
 
 const shared = Object.freeze({
   input: './index',
@@ -9,6 +10,7 @@ const shared = Object.freeze({
   output: {
     file: 'build/wikimedia-commons-file-path.js',
     format: 'umd',
+    banner: `/* ${pkg.name} ${pkg.version} (${pkg.license}) by ${pkg.author}. ${pkg.homepage} */`,
     name: 'wikimedia-commons-file-path'
   }
 });
