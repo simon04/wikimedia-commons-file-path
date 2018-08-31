@@ -10,4 +10,4 @@ console.log(commons('File:Innsbruck.jpg', 300 /*px*/));
 // https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Innsbruck.jpg/360px-Innsbruck.jpg
 ```
 
-To compute the MD5 hash, this library uses [`js-md5`](https://www.npmjs.com/package/js-md5).
+To compute the MD5 hash, this library uses [`blueimp-md5`](https://www.npmjs.com/package/blueimp-md5).
