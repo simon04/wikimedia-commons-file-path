@@ -12,8 +12,8 @@ export default function getFilePath(file, width) {
     const suffix = file.match(/tiff?$/i)
       ? '.jpg'
       : file.match(/svg$/i)
-        ? '.png'
-        : '';
+      ? '.png'
+      : '';
     return `${base}/thumb/${ns}/${encoded}/${width}px-${encoded}${suffix}`;
   } else {
     // original

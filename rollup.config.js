@@ -10,9 +10,7 @@ const shared = Object.freeze({
   output: {
     file: 'build/wikimedia-commons-file-path.js',
     format: 'umd',
-    banner: `/* ${pkg.name} ${pkg.version} (${pkg.license}) by ${pkg.author}. ${
-      pkg.homepage
-    } */`,
+    banner: `/* ${pkg.name} ${pkg.version} (${pkg.license}) by ${pkg.author}. ${pkg.homepage} */`,
     name: 'wikimedia-commons-file-path'
   }
 });
