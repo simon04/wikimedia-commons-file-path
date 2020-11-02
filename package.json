@@ -3,7 +3,8 @@
   "version": "1.2.0",
   "description": "Returns the image/thumbnail file path for Wikimedia Commons",
   "main": "build/wikimedia-commons-file-path.js",
-  "module": "index.js",
+  "module": "build/wikimedia-commons-file-path.module.js",
+  "source": "index.ts",
   "scripts": {
     "build": "microbundle --external none",
     "dev": "microbundle watch --external none"
