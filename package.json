@@ -7,7 +7,8 @@
   "source": "index.ts",
   "scripts": {
     "build": "microbundle --external none",
-    "dev": "microbundle watch --external none"
+    "dev": "microbundle watch --external none",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/simon04/wikimedia-commons-file-path#readme",
   "devDependencies": {
+    "jest": "^26.6.2",
     "microbundle": "^0.12.4"
   },
   "dependencies": {
