@@ -1,3 +1,8 @@
+## 2.1.0 (2021-05-25)
+
+- Specify TypeScript declaration file ([9eed7d8](https://github.com/simon04/wikimedia-commons-file-path/commit/9eed7d8))
+- NPM publish index.ts ([4dd11fb](https://github.com/simon04/wikimedia-commons-file-path/commit/4dd11fb))
+
 ## 2.0.0 (2020-11-02)
 
 - Migrate to TypeScript ([37e5a7c](https://github.com/simon04/wikimedia-commons-file-path/commit/37e5a7c))
