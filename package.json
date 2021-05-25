@@ -8,7 +8,7 @@
   "source": "index.ts",
   "files": [
     "build/**",
-    "index.js",
+    "index.ts",
     "LICENSE.md",
     "README.md"
   ],
