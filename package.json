@@ -4,6 +4,7 @@
   "description": "Returns the image/thumbnail file path for Wikimedia Commons",
   "main": "build/wikimedia-commons-file-path.js",
   "module": "build/wikimedia-commons-file-path.module.js",
+  "types": "build/index.d.ts",
   "source": "index.ts",
   "files": [
     "build/**",
