@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/simon04/wikimedia-commons-file-path#readme",
   "devDependencies": {
-    "jest": "^27.0.1",
-    "microbundle": "^0.13.0"
+    "jest": "^27.3.1",
+    "microbundle": "^0.13.3"
   },
   "dependencies": {
     "blueimp-md5": "^2.10.0"
