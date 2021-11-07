@@ -1,6 +1,6 @@
 {
   "name": "wikimedia-commons-file-path",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Returns the image/thumbnail file path for Wikimedia Commons",
   "main": "build/wikimedia-commons-file-path.js",
   "module": "build/wikimedia-commons-file-path.module.js",

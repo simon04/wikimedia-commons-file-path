@@ -1,3 +1,7 @@
+## 2.1.1 (2021-11-07)
+
+- TypeScript: width parameter is optional ([5338da2](https://github.com/simon04/wikimedia-commons-file-path/commit/5338da2))
+
 ## 2.1.0 (2021-05-25)
 
 - Specify TypeScript declaration file ([9eed7d8](https://github.com/simon04/wikimedia-commons-file-path/commit/9eed7d8))
