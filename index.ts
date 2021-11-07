@@ -1,7 +1,7 @@
 import md5 from 'blueimp-md5';
 
 // based on https://github.com/derhuerst/commons-photo-url/blob/master/index.js
-export default function getFilePath(file: string, width: number): string {
+export default function getFilePath(file: string, width?: number): string {
   file = file.replace(/^File:/, '').replace(/\s+/g, '_');
   const encoded = encodeURIComponent(file);
   const base = 'https://upload.wikimedia.org/wikipedia/commons';
