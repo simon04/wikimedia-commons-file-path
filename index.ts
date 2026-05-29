@@ -1,4 +1,4 @@
-import md5 from 'blueimp-md5';
+import md5 from './md5';
 
 // based on https://github.com/derhuerst/commons-photo-url/blob/master/index.js
 export default function getFilePath(file: string, width?: number): string {
