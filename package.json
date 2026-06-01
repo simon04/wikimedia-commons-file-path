@@ -2,10 +2,21 @@
   "name": "wikimedia-commons-file-path",
   "version": "2.1.1",
   "description": "Returns the image/thumbnail file path for Wikimedia Commons",
-  "type": "module",
-  "main": "dist/index.mjs",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "keywords": [
+    "commons",
+    "filepath",
+    "wikimedia"
+  ],
+  "homepage": "https://github.com/simon04/wikimedia-commons-file-path#readme",
+  "bugs": {
+    "url": "https://github.com/simon04/wikimedia-commons-file-path/issues"
+  },
+  "license": "ISC",
+  "author": "Simon Legner <Simon.Legner@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon04/wikimedia-commons-file-path.git"
+  },
   "source": "index.ts",
   "files": [
     "dist/**",
@@ -13,31 +24,20 @@
     "LICENSE.md",
     "README.md"
   ],
+  "type": "module",
+  "main": "dist/index.mjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsdown index.ts",
     "test": "node --test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simon04/wikimedia-commons-file-path.git"
+  "dependencies": {
+    "blueimp-md5": "^2.10.0"
   },
-  "keywords": [
-    "wikimedia",
-    "commons",
-    "filepath"
-  ],
-  "author": "Simon Legner <Simon.Legner@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simon04/wikimedia-commons-file-path/issues"
-  },
-  "homepage": "https://github.com/simon04/wikimedia-commons-file-path#readme",
   "devDependencies": {
     "@types/blueimp-md5": "^2.18.0",
     "tsdown": "^0.22.1",
     "typescript": "^6.0.3"
-  },
-  "dependencies": {
-    "blueimp-md5": "^2.10.0"
   }
 }
