@@ -29,7 +29,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsdown index.ts",
+    "build": "tsdown --deps.alwaysBundle=blueimp-md5 --deps.onlyBundle=blueimp-md5 index.ts",
     "test": "node --test"
   },
   "dependencies": {
